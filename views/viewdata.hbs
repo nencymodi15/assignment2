@@ -1,0 +1,45 @@
+<div class="container">
+        <h1>Car Sales Data</h1>
+        <table border="1">
+            <tr>
+                <th>InvoiceID</th>
+                <th>Branch</th>
+                <th>City</th>
+                <th>CustomerType</th>
+                <th>ProductLine</th>
+                <th>name</th>
+                <th>image</th>
+                <th>Unitprice</th>
+                <th>Quantity</th>
+                <th>Tax5</th>
+                <th>Total</th>
+                <th>Time</th>
+                <th>Payment</th>
+                <th>cogs</th>
+                <th>gross Income</th>
+                <th>Latest Launch</th>
+                <th>Rating</th>
+            </tr>
+            {{#each salesData}}
+                <tr class="{{highlightRow Rating}}">  
+                        <td>{{InvoiceID}}</td>
+                        <td>{{Branch}}</td>
+                        <td>{{City}}</td>
+                        <td>{{CustomerType}}</td>
+                        <td>{{ProductLine}}</td>
+                        <td>{{name}}</td>
+                        <td>{{image}}</td>
+                        <td>{{Unitprice}}</td>
+                        <td>{{Quantity}}</td>
+                        <td>{{Tax5}}</td>
+                        <td>{{Total}}</td>
+                        <td>{{Time}}</td>
+                        <td>{{Payment}}</td>
+                        <td>{{cogs}}</td>
+                        <td>{{grossIncome}}</td>
+                        <td>{{Latest_Launch}}</td>
+                        <td>{{Rating}}</td>    
+                    </tr>
+            {{/each}}
+        </table>
+    </div>

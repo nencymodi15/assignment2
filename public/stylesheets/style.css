@@ -1,0 +1,51 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+header {
+  background-color: #007bff;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+h3 {
+  margin: 5px 0;
+}
+
+footer {
+  background-color: #f8f9fa;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Additional Styles */
+h3 {
+  font-size: 24px;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Basic styles for body content */
+.container {
+  padding: 20px;
+}
+
+/* Example styles for links */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.highlightRow .Rating{
+  background-color: red;
+}
